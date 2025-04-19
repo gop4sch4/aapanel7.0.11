@@ -28,3 +28,17 @@ Top 5 Hottest Multi-Account Management Browsers Today (2025)
 Super Deal 70% Off VPS and Hosting - Celebrating DNCLOUD's 5th Birthday
 
 "# aapanel7.0.11" 
+
+
+UPDATE lên bản crack:
+
+curl -sSL https://raw.githubusercontent.com/gop4sch4/aapanel7.0.11/main/update_7.x_en.sh | bash
+
+Cài mới aapanel:
+
+URL=https://raw.githubusercontent.com/gop4sch4/aapanel7.0.11/main/install_7.0_en.sh && if [ -f /usr/bin/curl ]; then curl -ksSO "$URL"; else wget --no-check-certificate -O install_7.0_en.sh "$URL"; fi; bash install_7.0_en.sh aapanel
+
+
+Gỡ aapanel:
+
+sudo bt stop &&sudo update-rc.d -f bt remove &&sudo rm -f /etc/init.d/bt &&sudo rm -rf /www/server/panel
